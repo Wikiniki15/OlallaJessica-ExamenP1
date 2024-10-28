@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OlallaJessica_ExamenP1.Models
 {
@@ -16,6 +17,9 @@ namespace OlallaJessica_ExamenP1.Models
         public bool Mascota {  get; set; }
         [Required]
         public DateTime Nacimiento { get; set; }
+        [ForeignKey("CelularesId")]
+        public int CelularesId { get; set; }
+        public Celulares? celulares { get; set; }
 
     }
 }
