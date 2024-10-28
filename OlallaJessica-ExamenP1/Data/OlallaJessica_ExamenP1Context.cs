@@ -13,4 +13,6 @@ using OlallaJessica_ExamenP1.Models;
         }
 
         public DbSet<OlallaJessica_ExamenP1.Models.Olalla> Olalla { get; set; } = default!;
+
+public DbSet<OlallaJessica_ExamenP1.Models.Celular> Celular { get; set; } = default!;
     }
