@@ -11,7 +11,7 @@ namespace OlallaJessica_ExamenP1.Models
         [StringLength(100)]
         public string Nombre { get; set; }
         [Required]
-        [Range(1, 2)]
+        [Range(100,200)]
         public float Estatura {  get; set; }
         [Required]
         public bool Mascota {  get; set; }
