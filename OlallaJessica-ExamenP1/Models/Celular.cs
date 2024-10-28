@@ -9,7 +9,7 @@ namespace OlallaJessica_ExamenP1.Models
         public int Id { get; set; }
         [Required]
         [StringLength(100)]
-        public string Name { get; set; }
+        public string Modelo { get; set; }
         [Required]
         [Range(2000, 2024)]
         public int Anio { get; set; }
