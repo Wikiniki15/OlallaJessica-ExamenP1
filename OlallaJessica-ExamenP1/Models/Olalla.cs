@@ -17,9 +17,9 @@ namespace OlallaJessica_ExamenP1.Models
         public bool Mascota {  get; set; }
         [Required]
         public DateTime Nacimiento { get; set; }
-        [ForeignKey("CelularesId")]
-        public int CelularesId { get; set; }
-        public Celulares? celulares { get; set; }
+        [ForeignKey("CelularId")]
+        public int CelularId { get; set; }
+        public Celular? celular { get; set; }
 
     }
 }
